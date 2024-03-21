@@ -128,6 +128,10 @@ button:hover {
 
 .project-container{
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -138,6 +142,17 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: #292F36;
+    padding: 10px;
+  }
+
+  .sub-project-container {
+    display: flex;
+    width: 70%;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #292F36;
     padding: 10px;
   }
